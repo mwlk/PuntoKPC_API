@@ -8,5 +8,6 @@ namespace Persistence.Models
 {
     public class Vendedor
     {
+        public int VendedorId { get; set; }
     }
 }
