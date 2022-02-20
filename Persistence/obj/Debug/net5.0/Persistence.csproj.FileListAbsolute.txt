@@ -2,7 +2,6 @@ C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistenc
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistence.dll
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\ref\Persistence.dll
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistence.pdb
-C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistenc
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.json
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.dev.json
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache
+C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache

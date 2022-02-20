@@ -1,10 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Persistence.Configurations;
 using Persistence.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistence.Data
 {
@@ -17,7 +13,11 @@ namespace Persistence.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-
+            // add configs
+            new FacturaConfig(builder.Entity<Factura>());
+            new ClienteConfig(builder.Entity<Cliente>());
+            new ProductoConfig(builder.Entity<Producto>());
+            new PedidoConfig(builder.Entity<Pedido>());
         }
 
         public DbSet<Almacen> Almacenes { get; set; }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ne6L0Ji3jQAcueyPd+ympAaNkXVeRmWd2Cl51BWyEVBKQtQA6PIsEqGeiuxMasRcO82LBrDNA5E+Ta2nTTL8RQ==",
+  "dgSpecHash": "xzYXx/eOVr/DhPkioQbF38xszyy8Awn/OdinJVCQ2MoWF1br5k1+DhRoCLKp1jKTgmP9YqETfifpas00oyfMEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.14\\microsoft.entityframeworkcore.design.5.0.14.nupkg.sha512",
     "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.14\\microsoft.entityframeworkcore.relational.5.0.14.nupkg.sha512",
     "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.14\\microsoft.entityframeworkcore.sqlserver.5.0.14.nupkg.sha512",
+    "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.14\\microsoft.entityframeworkcore.tools.5.0.14.nupkg.sha512",
     "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\mirko.MIRKO\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

@@ -56,12 +56,16 @@ namespace Persistence.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.Property<string>("Telefono")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Clienteid");
+
+                    b.HasAlternateKey("Nombre");
 
                     b.ToTable("Clientes");
                 });
@@ -132,7 +136,9 @@ namespace Persistence.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("NumeroPedido")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<int>("VendedorId")
                         .HasColumnType("int");
@@ -157,13 +163,16 @@ namespace Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Descripcion")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("Estado")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<double>("PrecioPack")
                         .HasColumnType("float");
@@ -172,6 +181,8 @@ namespace Persistence.Migrations
                         .HasColumnType("float");
 
                     b.HasKey("ProductoId");
+
+                    b.HasAlternateKey("Nombre");
 
                     b.ToTable("Productos");
                 });
