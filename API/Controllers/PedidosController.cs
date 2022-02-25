@@ -22,11 +22,25 @@ namespace API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllOrders()
         {
-            var data = await _service.GetAll();
+            try
+            {
+                var data = await _service.GetAll();
 
-            if (data == null) return Problem("no orders");
-
-            return Ok(data);
+                if (data == null)
+                {
+                    //return NotFound();
+                    throw new Exception();
+                }
+                else
+                {
+                    return Ok(data);
+                }
+            }
+            catch (Exception e)
+            {
+                return Problem("fail ", e.Message);
+            }
+           
         }
     }
 }
