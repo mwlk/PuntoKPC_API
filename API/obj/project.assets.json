@@ -1594,6 +1594,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Interface.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1606,6 +1619,20 @@
         },
         "runtime": {
           "bin/placeholder/Persistence.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Interface": "1.0.0",
+          "Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
         }
       }
     }
@@ -5937,16 +5964,28 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Interface/1.0.0": {
+      "type": "project",
+      "path": "../Interface/Interface.csproj",
+      "msbuildProject": "../Interface/Interface.csproj"
+    },
     "Persistence/1.0.0": {
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
       "msbuildProject": "../Persistence/Persistence.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Interface >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.14",
       "Persistence >= 1.0.0",
+      "Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -5981,8 +6020,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Interface\\Interface.csproj": {
+              "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Interface\\Interface.csproj"
+            },
             "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj"
+            },
+            "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Service\\Service.csproj"
             }
           }
         }

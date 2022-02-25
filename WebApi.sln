@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{D31801A7-0CE7-4B4D-B993-64CA01904331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{D31801A7-0CE7-4B4D-B993-64CA01904331}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3E647085-6049-4B10-96E6-AFB6BDC0E44C} = {3E647085-6049-4B10-96E6-AFB6BDC0E44C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{3E647085-6049-4B10-96E6-AFB6BDC0E44C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{3E647085-6049-4B10-96E6-AFB6BDC0E44C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{2236A439-505D-4AAD-B83C-552E3B963D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{2236A439-505D-4AAD-B83C-552E3B963D50}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D31801A7-0CE7-4B4D-B993-64CA01904331} = {D31801A7-0CE7-4B4D-B993-64CA01904331}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{C4A47789-F636-45F1-9360-8FD191FF214E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2236A439-505D-4AAD-B83C-552E3B963D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2236A439-505D-4AAD-B83C-552E3B963D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2236A439-505D-4AAD-B83C-552E3B963D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A47789-F636-45F1-9360-8FD191FF214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A47789-F636-45F1-9360-8FD191FF214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A47789-F636-45F1-9360-8FD191FF214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A47789-F636-45F1-9360-8FD191FF214E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

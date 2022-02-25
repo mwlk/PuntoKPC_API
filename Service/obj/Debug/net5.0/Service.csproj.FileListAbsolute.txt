@@ -10,3 +10,8 @@ C:\Users\mirko.MIRKO\source\repos\WebApi\Service\obj\Debug\net5.0\Service.csproj
 C:\Users\mirko.MIRKO\source\repos\WebApi\Service\obj\Debug\net5.0\Service.dll
 C:\Users\mirko.MIRKO\source\repos\WebApi\Service\obj\Debug\net5.0\ref\Service.dll
 C:\Users\mirko.MIRKO\source\repos\WebApi\Service\obj\Debug\net5.0\Service.pdb
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Interface.dll
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Persistence.dll
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Interface.pdb
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Persistence.pdb
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\obj\Debug\net5.0\Service.csproj.CopyComplete

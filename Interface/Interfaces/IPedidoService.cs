@@ -1,13 +1,11 @@
-﻿using System;
+﻿using Persistence.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace Service.Interfaces
+namespace Interface.Interfaces
 {
     public interface IPedidoService
     {
-        Task<int> GetId();
+        Task<IEnumerable<Pedido>> GetAll();
     }
 }

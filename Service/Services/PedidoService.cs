@@ -1,13 +1,26 @@
-﻿using Service.Interfaces;
+﻿using Interface.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Persistence.Data;
+using Persistence.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Service.Services
 {
     public class PedidoService : IPedidoService
     {
-        public Task<int> GetId()
+        private readonly EcommerceContext _context;
+
+        public PedidoService(EcommerceContext context)
         {
-            throw new System.NotImplementedException();
+            _context = context;
+        }
+
+        public async Task<IEnumerable<Pedido>> GetAll()
+        {
+            var result = await _context.Pedidos.ToListAsync();
+
+            return result;
         }
     }
 }
