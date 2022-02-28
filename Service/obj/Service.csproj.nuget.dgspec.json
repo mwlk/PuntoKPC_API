@@ -33,6 +33,9 @@
             "projectReferences": {
               "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj"
+              },
+              "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj"
               }
             }
           }
@@ -91,11 +94,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -168,7 +167,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -229,8 +232,8 @@
               "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Interface\\Interface.csproj": {
                 "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Interface\\Interface.csproj"
               },
-              "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj"
+              "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj"
               }
             }
           }

@@ -1,11 +1,10 @@
 ﻿using Persistence.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Repository;
 
 namespace Interface.Interfaces
 {
-    public interface IPedidoService
+    public interface IPedidoService: IEntityBaseRepository<Pedido>
     {
-        Task<IEnumerable<Pedido>> GetAll();
+      
     }
 }

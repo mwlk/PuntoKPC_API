@@ -1,26 +1,13 @@
 ﻿using Interface.Interfaces;
-using Microsoft.EntityFrameworkCore;
 using Persistence.Data;
 using Persistence.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using Repository;
 
 namespace Service.Services
 {
-    public class PedidoService : IPedidoService
+    public class PedidoService: EntityBaseRepository<Pedido>, IPedidoService
     {
-        private readonly EcommerceContext _context;
-
-        public PedidoService(EcommerceContext context)
-        {
-            _context = context;
-        }
-
-        public async Task<IEnumerable<Pedido>> GetAll()
-        {
-            var result = await _context.Pedidos.ToListAsync();
-
-            return result;
-        }
+        public PedidoService(EcommerceContext context): base(context) { }
+        
     }
 }

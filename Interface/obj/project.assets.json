@@ -1487,8 +1487,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14",
-          "Repository": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14"
         },
         "compile": {
           "bin/placeholder/Persistence.dll": {}
@@ -1500,6 +1499,9 @@
       "Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Persistence": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Repository.dll": {}
         },
@@ -5686,7 +5688,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Persistence >= 1.0.0"
+      "Persistence >= 1.0.0",
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5722,6 +5725,9 @@
           "projectReferences": {
             "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Persistence\\Persistence.csproj"
+            },
+            "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\mirko.MIRKO\\source\\repos\\WebApi\\Repository\\Repository.csproj"
             }
           }
         }

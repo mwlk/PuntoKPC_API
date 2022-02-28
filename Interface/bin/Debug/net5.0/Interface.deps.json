@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "Interface/1.0.0": {
         "dependencies": {
-          "Persistence": "1.0.0"
+          "Persistence": "1.0.0",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "Interface.dll": {}
@@ -1042,14 +1043,16 @@
       "Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14",
-          "Repository": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14"
         },
         "runtime": {
           "Persistence.dll": {}
         }
       },
       "Repository/1.0.0": {
+        "dependencies": {
+          "Persistence": "1.0.0"
+        },
         "runtime": {
           "Repository.dll": {}
         }

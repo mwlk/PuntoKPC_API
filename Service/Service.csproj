@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Interface\Interface.csproj" />
-    <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
   </ItemGroup>
 
 </Project>

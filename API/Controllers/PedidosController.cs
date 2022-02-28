@@ -24,7 +24,7 @@ namespace API.Controllers
         {
             try
             {
-                var data = await _service.GetAll();
+                var data = await _service.GetAllAsync();
 
                 if (data == null)
                 {
