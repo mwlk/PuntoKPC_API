@@ -13,3 +13,6 @@ C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistenc
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.dev.json
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache
 C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Repository.dll
+C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\bin\Debug\net5.0\Repository.pdb
+C:\Users\mirko.MIRKO\source\repos\WebApi\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete

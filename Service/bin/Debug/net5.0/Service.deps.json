@@ -1051,10 +1051,16 @@
       "Persistence/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "Persistence.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "runtime": {
+          "Repository.dll": {}
         }
       }
     }
@@ -1729,6 +1735,11 @@
       "sha512": ""
     },
     "Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

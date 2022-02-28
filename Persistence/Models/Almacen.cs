@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Persistence.Models
 {
-    public class Almacen
+    public class Almacen: IEntityBase
     {
         [Key]
-        public int AlmacenId { get; set; }
+        public int Id { get; set; }
         public int Stock { get; set; }
 
         public int ProductoId { get; set; }

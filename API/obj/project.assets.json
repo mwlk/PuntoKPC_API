@@ -1612,13 +1612,24 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14",
+          "Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Persistence.dll": {}
         },
         "runtime": {
           "bin/placeholder/Persistence.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
         }
       },
       "Service/1.0.0": {
@@ -5973,6 +5984,11 @@
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
       "msbuildProject": "../Persistence/Persistence.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     },
     "Service/1.0.0": {
       "type": "project",

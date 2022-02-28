@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace Persistence.Models
 {
-    public class Cliente
+    public class Cliente: IEntityBase
     {
         [Key]
-        public int Clienteid { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Direccion { get; set; }
         public string Telefono { get; set; }

@@ -15,3 +15,5 @@ C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Persistence.dl
 C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Interface.pdb
 C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Persistence.pdb
 C:\Users\mirko.MIRKO\source\repos\WebApi\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Repository.dll
+C:\Users\mirko.MIRKO\source\repos\WebApi\Service\bin\Debug\net5.0\Repository.pdb

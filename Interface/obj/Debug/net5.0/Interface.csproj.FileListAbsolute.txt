@@ -13,3 +13,5 @@ C:\Users\mirko.MIRKO\source\repos\WebApi\Interface\obj\Debug\net5.0\Interface.cs
 C:\Users\mirko.MIRKO\source\repos\WebApi\Interface\obj\Debug\net5.0\Interface.dll
 C:\Users\mirko.MIRKO\source\repos\WebApi\Interface\obj\Debug\net5.0\ref\Interface.dll
 C:\Users\mirko.MIRKO\source\repos\WebApi\Interface\obj\Debug\net5.0\Interface.pdb
+C:\Users\mirko.MIRKO\source\repos\WebApi\Interface\bin\Debug\net5.0\Repository.dll
+C:\Users\mirko.MIRKO\source\repos\WebApi\Interface\bin\Debug\net5.0\Repository.pdb

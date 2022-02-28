@@ -21,7 +21,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.Almacen", b =>
                 {
-                    b.Property<int>("AlmacenId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -32,7 +32,7 @@ namespace Persistence.Migrations
                     b.Property<int>("Stock")
                         .HasColumnType("int");
 
-                    b.HasKey("AlmacenId");
+                    b.HasKey("Id");
 
                     b.HasIndex("ProductoId");
 
@@ -41,7 +41,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.Cliente", b =>
                 {
-                    b.Property<int>("Clienteid")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -63,7 +63,7 @@ namespace Persistence.Migrations
                     b.Property<string>("Telefono")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Clienteid");
+                    b.HasKey("Id");
 
                     b.HasAlternateKey("Nombre");
 
@@ -72,7 +72,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.DetallePedido", b =>
                 {
-                    b.Property<int>("DetallePedidoId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -89,7 +89,7 @@ namespace Persistence.Migrations
                     b.Property<int>("ProductoId")
                         .HasColumnType("int");
 
-                    b.HasKey("DetallePedidoId");
+                    b.HasKey("Id");
 
                     b.HasIndex("PedidoId");
 
@@ -100,7 +100,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.Factura", b =>
                 {
-                    b.Property<int>("FacturaId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -111,7 +111,7 @@ namespace Persistence.Migrations
                     b.Property<int>("PedidoId")
                         .HasColumnType("int");
 
-                    b.HasKey("FacturaId");
+                    b.HasKey("Id");
 
                     b.HasIndex("PedidoId")
                         .IsUnique();
@@ -121,7 +121,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.Pedido", b =>
                 {
-                    b.Property<int>("PedidoId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -143,7 +143,7 @@ namespace Persistence.Migrations
                     b.Property<int>("VendedorId")
                         .HasColumnType("int");
 
-                    b.HasKey("PedidoId");
+                    b.HasKey("Id");
 
                     b.HasIndex("ClienteId");
 
@@ -154,7 +154,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.Producto", b =>
                 {
-                    b.Property<int>("ProductoId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -180,7 +180,7 @@ namespace Persistence.Migrations
                     b.Property<double>("PrecioUnitario")
                         .HasColumnType("float");
 
-                    b.HasKey("ProductoId");
+                    b.HasKey("Id");
 
                     b.HasAlternateKey("Nombre");
 
@@ -189,7 +189,7 @@ namespace Persistence.Migrations
 
             modelBuilder.Entity("Persistence.Models.Usuario", b =>
                 {
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -200,14 +200,14 @@ namespace Persistence.Migrations
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("UserId");
+                    b.HasKey("Id");
 
                     b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Persistence.Models.Vendedor", b =>
                 {
-                    b.Property<int>("VendedorId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -224,7 +224,7 @@ namespace Persistence.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("VendedorId");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 

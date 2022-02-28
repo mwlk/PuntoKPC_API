@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Repository;
+using System;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistence.Models
 {
-    public class Producto
+    public class Producto: IEntityBase
     {
         [Key]
-        public int ProductoId { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public Double PrecioUnitario { get; set; }

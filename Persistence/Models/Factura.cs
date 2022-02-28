@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Repository;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistence.Models
 {
-    public class Factura
+    public class Factura: IEntityBase
     {
         [Key]
-        public int FacturaId { get; set; }
+        public int Id { get; set; }
         public Double Monto { get; set; }
 
         public int PedidoId { get; set; }

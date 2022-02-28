@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Persistence.Models
 {
-    public class Pedido
+    public class Pedido: IEntityBase
     {
         [Key]
-        public int PedidoId { get; set; }
+        public int Id { get; set; }
         public int ClienteId { get; set; }
         public int VendedorId { get; set; }
         public string NumeroPedido { get; set; }

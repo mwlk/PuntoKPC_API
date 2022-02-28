@@ -1,17 +1,14 @@
-﻿using System;
+﻿using Repository;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistence.Models
 {
-    public class Vendedor
+    public class Vendedor: IEntityBase
     {
         [Key]
-        public int VendedorId { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; }
         public string Dni { get; set; }
         public string Telefono { get; set; }
