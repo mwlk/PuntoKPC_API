@@ -38,7 +38,14 @@ namespace API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
 
+            services.AddScoped<IAlmacenService, AlmacenService>();
+            services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IDetallePedidoService, DetallePedidoService>();
+            services.AddScoped<IFacturaService, FacturaService>();
             services.AddScoped<IPedidoService, PedidoService>();
+            services.AddScoped<IProductoService, ProductoService>();
+            services.AddScoped<IVendedorService, VendedorService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

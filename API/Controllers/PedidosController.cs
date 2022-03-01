@@ -1,9 +1,7 @@
 ﻿using Interface.Interfaces;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Persistence.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace API.Controllers
@@ -40,7 +38,42 @@ namespace API.Controllers
             {
                 return Problem("fail ", e.Message);
             }
-           
+        }
+
+        [HttpGet]
+        [Route("GetById/{id}")]
+        public async Task<IActionResult> GetOrderById(int id)
+        {
+            try
+            {
+                var data = await _service.GetByIdAsync(id);
+
+                if (data == null) return NotFound();
+
+                return Ok(data);
+            }
+            catch (Exception e)
+            {
+
+                return Problem("fail " + e.Message);
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> InsertOrder(Pedido model)
+        {
+            if (!ModelState.IsValid) return BadRequest();
+
+            try
+            {
+                await _service.AddAsync(model);
+
+                return Ok(model);
+            }
+            catch (Exception e)
+            {
+                return Problem("no insert " + e.Message);
+            }
         }
     }
 }
