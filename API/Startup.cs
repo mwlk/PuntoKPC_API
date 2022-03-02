@@ -44,6 +44,7 @@ namespace API
             services.AddScoped<IFacturaService, FacturaService>();
             services.AddScoped<IPedidoService, PedidoService>();
             services.AddScoped<IProductoService, ProductoService>();
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IVendedorService, VendedorService>();
 
         }
