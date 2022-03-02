@@ -11,10 +11,12 @@ namespace API.Controllers
     public class PedidosController : ControllerBase
     {
         private readonly IPedidoService _service;
+        private readonly IDetallePedidoService _detalle;
 
-        public PedidosController(IPedidoService service)
+        public PedidosController(IPedidoService service, IDetallePedidoService detalle)
         {
             _service = service;
+            _detalle = detalle;
         }
 
         [HttpGet]
