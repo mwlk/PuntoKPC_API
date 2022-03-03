@@ -9,7 +9,7 @@ namespace Repository
 
         Task<T> GetByIdAsync(int id);
 
-        Task AddAsync(T entity);
+        Task<T> AddAsync(T entity);
 
         Task UpdateAsync(int id, T entity);
 

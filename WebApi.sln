@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{C4A47789-F636-45F1-9360-8FD191FF214E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{F396FFE8-6888-430F-BB14-35D199E2F517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{F396FFE8-6888-430F-BB14-35D199E2F517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{EB015E36-E3FC-43A4-ABBD-4EB33FBD9B2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F396FFE8-6888-430F-BB14-35D199E2F517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F396FFE8-6888-430F-BB14-35D199E2F517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F396FFE8-6888-430F-BB14-35D199E2F517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB015E36-E3FC-43A4-ABBD-4EB33FBD9B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB015E36-E3FC-43A4-ABBD-4EB33FBD9B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB015E36-E3FC-43A4-ABBD-4EB33FBD9B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB015E36-E3FC-43A4-ABBD-4EB33FBD9B2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

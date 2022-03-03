@@ -9,7 +9,9 @@ namespace Persistence.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public int ClienteId { get; set; }
+        [Required]
         public int VendedorId { get; set; }
         public string NumeroPedido { get; set; }
         public DateTime FechaPedido { get; set; }
